@@ -41,21 +41,6 @@
 
 MODBUS_BEGIN_DECLS
 
-#ifndef FALSE
-#define FALSE 0
-#endif
-
-#ifndef TRUE
-#define TRUE 1
-#endif
-
-#ifndef OFF
-#define OFF 0
-#endif
-
-#ifndef ON
-#define ON 1
-#endif
 
 /* Modbus function codes */
 #define MODBUS_FC_READ_COILS                0x01
